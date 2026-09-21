@@ -1,0 +1,6 @@
+VIN                RESULT   DETAIL
+1HGCM82633A004352  valid
+1HGCM82633A004353  invalid  check digit is '3', computed '5'
+1HGCM82633A0O4352  invalid  position 13 is 'O'; I, O and Q are never used because they read as 1 and 0
+WP0ZZZ99ZTS392124  invalid  position 9 is 'Z'; the check digit must be a digit or X
+ABC                invalid  3 characters, want 17

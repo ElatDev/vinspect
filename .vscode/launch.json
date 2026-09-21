@@ -1,0 +1,44 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "vinspect decode (prompt for VIN)",
+      "type": "go",
+      "request": "launch",
+      "mode": "debug",
+      "program": "${workspaceFolder}/cmd/vinspect",
+      "args": ["decode", "${input:vin}"]
+    },
+    {
+      "name": "vinspect check (prompt for VIN)",
+      "type": "go",
+      "request": "launch",
+      "mode": "debug",
+      "program": "${workspaceFolder}/cmd/vinspect",
+      "args": ["check", "${input:vin}"]
+    },
+    {
+      "name": "vinspect decode --online (prompt for VIN)",
+      "type": "go",
+      "request": "launch",
+      "mode": "debug",
+      "program": "${workspaceFolder}/cmd/vinspect",
+      "args": ["decode", "--online", "${input:vin}"]
+    },
+    {
+      "name": "Debug the test under the cursor",
+      "type": "go",
+      "request": "launch",
+      "mode": "test",
+      "program": "${fileDirname}"
+    }
+  ],
+  "inputs": [
+    {
+      "id": "vin",
+      "type": "promptString",
+      "description": "VIN to inspect",
+      "default": "1HGCM82633A004352"
+    }
+  ]
+}

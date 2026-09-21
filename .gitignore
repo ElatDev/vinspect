@@ -1,0 +1,6 @@
+.cache/
+/dist/
+/vinspect
+/vinspect.exe
+*.test
+coverage.out

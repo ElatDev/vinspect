@@ -1,0 +1,16 @@
+
+  LRW 3E7EA 6 M C 000000
+  │   │     │ │ │ └─────── serial        000000
+  │   │     │ │ └───────── plant         C  assembly plant, coded by the manufacturer
+  │   │     │ └─────────── model year    1991 or 2021 (ambiguous)
+  │   │     └───────────── check digit   6 matches
+  │   └─────────────────── descriptor    3E7EA  model, body and engine, coded by the manufacturer
+  └─────────────────────── manufacturer  not in NHTSA's registry
+                           origin        China · Asia
+
+  Model year 1991 or 2021 is ambiguous: the WMI is not in NHTSA's registry,
+  so the vehicle type is unknown, and position 7 settles the year only for
+  cars, MPVs and light trucks.
+  · LRW is not among the 12,999 WMIs in NHTSA's registry (snapshot
+    2026-09-21).
+

@@ -1,0 +1,6 @@
+VIN                CHECK  YEAR       MAKE           MANUFACTURER                    ORIGIN
+1HGCM82633A004352  ok     2003       HONDA          AMERICAN HONDA MOTOR CO., INC.  United States
+JM1BN1U70H1100922  ok     2017?      MAZDA          MAZDA MOTOR CORPORATION         Japan
+1FTFW1ET9DFC10312  ok     1983/2013  FORD           FORD MOTOR COMPANY              United States
+LRW3E7EA6MC000000  ok     1991/2021                                                 China
+NOT-A-VIN          9 characters, want 17

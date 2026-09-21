@@ -1,0 +1,24 @@
+
+  1HG CM826 3 3 A 004352
+  │   │     │ │ │ └─────── serial        004352
+  │   │     │ │ └───────── plant         A  assembly plant, coded by the manufacturer
+  │   │     │ └─────────── model year    2003
+  │   │     └───────────── check digit   3 matches
+  │   └─────────────────── descriptor    CM826  model, body and engine, coded by the manufacturer
+  └─────────────────────── manufacturer  AMERICAN HONDA MOTOR CO., INC.
+                           registered    HONDA · Passenger Car
+                           origin        United States · North America
+
+  Model year 2003: position 7 is a digit, and since model year 2010 a
+  passenger car must carry a letter there, so this is the 1980-2009 cycle
+  (49 CFR 565.15).
+
+  NHTSA vPIC
+  vehicle       2003 HONDA Accord EX-V6
+  body          Coupe, 2 doors
+  engine        3.0 L 6-cylinder, 240 hp, Gasoline
+  transmission  5-speed Automatic
+  built in      MARYSVILLE, OHIO, UNITED STATES (USA)
+  gvwr          Class 1C: 4,001 - 5,000 lb (1,814 - 2,268 kg)
+  vPIC says     0 - VIN decoded clean. Check Digit (9th position) is correct
+

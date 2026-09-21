@@ -1,0 +1,57 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "test",
+      "type": "shell",
+      "command": "go test ./...",
+      "group": { "kind": "test", "isDefault": true },
+      "problemMatcher": ["$go"]
+    },
+    {
+      "label": "test (verbose, with corpus numbers)",
+      "type": "shell",
+      "command": "go test ./... -v -run 'Corpus|Substitution'",
+      "problemMatcher": ["$go"]
+    },
+    {
+      "label": "build",
+      "type": "shell",
+      "command": "go build -o dist/ ./cmd/vinspect",
+      "group": { "kind": "build", "isDefault": true },
+      "problemMatcher": ["$go"]
+    },
+    {
+      "label": "vet",
+      "type": "shell",
+      "command": "go vet ./...",
+      "problemMatcher": ["$go"]
+    },
+    {
+      "label": "update golden files",
+      "type": "shell",
+      "command": "go test ./cmd/vinspect -update",
+      "problemMatcher": ["$go"]
+    },
+    {
+      "label": "corpus: report",
+      "detail": "Recompute the README's verification numbers from the committed corpus",
+      "type": "shell",
+      "command": "go run ./tools/corpus report -readme README.md",
+      "problemMatcher": []
+    },
+    {
+      "label": "corpus: refetch from NHTSA (slow)",
+      "detail": "Rebuilds testdata/corpus from NHTSA's APIs; takes hours and is resumable",
+      "type": "shell",
+      "command": "go run ./tools/corpus crash && go run ./tools/corpus vpic",
+      "problemMatcher": []
+    },
+    {
+      "label": "wmi: refetch registry from vPIC (slow)",
+      "type": "shell",
+      "command": "go run ./tools/wmi-import",
+      "problemMatcher": []
+    }
+  ]
+}

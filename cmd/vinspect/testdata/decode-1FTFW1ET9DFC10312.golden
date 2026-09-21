@@ -1,0 +1,15 @@
+
+  1FT FW1ET 9 D F C10312
+  │   │     │ │ │ └─────── serial        C10312
+  │   │     │ │ └───────── plant         F  assembly plant, coded by the manufacturer
+  │   │     │ └─────────── model year    1983 or 2013 (ambiguous)
+  │   │     └───────────── check digit   9 matches
+  │   └─────────────────── descriptor    FW1ET  model, body and engine, coded by the manufacturer
+  └─────────────────────── manufacturer  FORD MOTOR COMPANY
+                           registered    FORD · Truck
+                           origin        United States · North America
+
+  Model year 1983 or 2013 is ambiguous: NHTSA registers this WMI for trucks,
+  and position 7 settles the year only up to 10,000 lb GVWR; if this is a
+  light truck it is 2013.
+

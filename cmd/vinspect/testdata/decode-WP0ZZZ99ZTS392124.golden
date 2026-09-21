@@ -1,0 +1,17 @@
+
+  WP0 ZZZ99 Z T S 392124
+  │   │     │ │ │ └─────── serial        392124
+  │   │     │ │ └───────── plant         S  assembly plant, coded by the manufacturer
+  │   │     │ └─────────── model year    1996
+  │   │     └───────────── check digit   Z cannot be a check digit, should be 8
+  │   └─────────────────── descriptor    ZZZ99  model, body and engine, coded by the manufacturer
+  └─────────────────────── manufacturer  DR. ING. H.C.F. PORSCHE AG
+                           registered    PORSCHE · Passenger Car
+                           origin        Germany · Europe
+
+  Model year 1996: position 7 is a digit, and since model year 2010 a
+  passenger car must carry a letter there, so this is the 1980-2009 cycle
+  (49 CFR 565.15).
+  ! The check digit does not match (a check digit is mandatory only for
+    vehicles sold in North America and China).
+

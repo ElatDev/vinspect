@@ -1,0 +1,15 @@
+
+  1HG CM826 3 3 A 004352
+  │   │     │ │ │ └─────── serial        004352
+  │   │     │ │ └───────── plant         A  assembly plant, coded by the manufacturer
+  │   │     │ └─────────── model year    2003
+  │   │     └───────────── check digit   3 matches
+  │   └─────────────────── descriptor    CM826  model, body and engine, coded by the manufacturer
+  └─────────────────────── manufacturer  AMERICAN HONDA MOTOR CO., INC.
+                           registered    HONDA · Passenger Car
+                           origin        United States · North America
+
+  Model year 2003: position 7 is a digit, and since model year 2010 a
+  passenger car must carry a letter there, so this is the 1980-2009 cycle
+  (49 CFR 565.15).
+
